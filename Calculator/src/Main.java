@@ -133,6 +133,8 @@ public class Main {
                 System.out.println("Поиграли хорошо + " + needgames);
                 hunger -= 60;
                 weight -= 0.3;
+                weight -= 0.3;
+                weight -= 0.3;
             }
             System.out.println("Введите \"x\" для выхода");
             gamemenu = scanner.next().charAt(0);
